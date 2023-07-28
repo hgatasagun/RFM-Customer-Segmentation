@@ -46,7 +46,7 @@ df = df_.copy()
 # Data Understanding
 #############################
 def check_df(dataframe, head=10):
-    print('################# Shape ################# ')
+    print('################# Columns ################# ')
     print(dataframe.columns)
     print('################# Types  ################# ')
     print(dataframe.dtypes)
